@@ -3,11 +3,11 @@ const fastify = require('fastify')();
 
 // Declare a route
 fastify.get('/', (request, reply) => {
-  reply.send({ hello: 'dude' });
+  reply.send({ hello: 'dhanush' });
 });
 
 fastify.get('/hello', (request, reply) => {
-  reply.send({ working: 'dude' });
+  reply.send({ working: 'now' });
 });
 
 // Run the server!
